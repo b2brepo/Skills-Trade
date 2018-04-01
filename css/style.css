@@ -10537,7 +10537,7 @@ html:not(.lt-ie10) .not-animated {
     width: 100%;
   }
   .rd-navbar-static .rd-navbar-main > * + * {
-    padding-top: 20px;
+    padding: 20px 0;
   }
   .rd-navbar-static .rd-navbar-nav-wrap {
     -webkit-justify-content: center;
@@ -10548,7 +10548,7 @@ html:not(.lt-ie10) .not-animated {
     display: none;
   }
   .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-main > * + *, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-main > * + * {
-    padding-top: 0;
+    padding: 0;
   }
 }
 
@@ -10764,7 +10764,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-panel, .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-panel {
-  display: none;
+  /*display: none;*/
 }
 
 .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-nav > li .rd-navbar-dropdown, .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-nav > li .rd-navbar-dropdown {
@@ -11103,6 +11103,7 @@ html:not(.lt-ie10) .not-animated {
   color: #444;
   position: fixed;
   z-index: 1000;
+  visibility: hidden;
 }
 
 .rd-navbar-fixed .rd-navbar-aside__toggle span {
@@ -11564,6 +11565,7 @@ html.boxed .rd-navbar--is-clone {
 
 .rd-google-map__small.rd-google-map__model {
   height: 190px;
+  margin: auto;
 }
 
 .rd-search-results-live {
@@ -27214,15 +27216,15 @@ img.mfp-img {
   background-size: contain;
   background-position: center;
 }
-body.index > div.page > header > div > nav > div > div > div.rd-navbar-panel{
+body > div.page > header > div > nav > div > div > div.rd-navbar-panel{
   display: inline-block;
   /*box-shadow: 0 0 20px 0 black;*/
 }
-body.index > div.page > header > div > nav > div > div > div.rd-navbar-nav-wrap.toggle-original-elements{
+body > div.page > header > div > nav > div > div > div.rd-navbar-nav-wrap.toggle-original-elements{
   display: inline-block; 
   float: right;
 }
-body.index > div.page > header > div > nav > div > div > div.rd-navbar-nav-wrap.toggle-original-elements{
+body > div.page > header > div > nav > div > div > div.rd-navbar-nav-wrap.toggle-original-elements{
   margin-top: 0px;
   padding-top: 45px;
 }
@@ -27264,7 +27266,7 @@ body > div.page > section.section.section-jumbotron.rd-parallax.bg-gray-dark > d
   bottom: 0;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 992px){
   header .brand__name{
     height: 50px;
     background-position: left; 
@@ -27299,4 +27301,19 @@ section.section.section-custom-1.bg-image.bg-image-1 .range > .cell-lg-5{
   background: #ffffffa3;
   padding: 20px;
   color: #000;
+  margin: auto;
+}
+
+figure.image-wrap-1 img{
+  height: auto;
+}
+
+.solutions-quote-minimal{
+  background: #ffffffab;
+  color: #444;
+  padding: 10px; 
+}
+
+.heading-2-mod-1.text-block span{
+  color: #4f91b5;
 }
