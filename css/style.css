@@ -153,6 +153,9 @@ a:hover, a:focus {
   text-decoration: none;
   outline: none;
 }
+body > div.page > footer > div > div > div:nth-child(1) > a:nth-child(3):hover{
+  color: #ffffff;
+}
 
 a[href*='callto'], a[href*='mailto'] {
   white-space: nowrap;
@@ -10450,8 +10453,8 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-static .rd-navbar-main {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  /*padding-top: 25px;*/
+  /*padding-bottom: 25px;*/
   transition: .33s all ease;
 }
 
@@ -27290,4 +27293,10 @@ body > div.page > section.section.section-jumbotron.rd-parallax.bg-gray-dark > d
     text-shadow: 0 0 20px white;
     display: block;
   }
+}
+
+section.section.section-custom-1.bg-image.bg-image-1 .range > .cell-lg-5{
+  background: #ffffffa3;
+  padding: 20px;
+  color: #000;
 }
