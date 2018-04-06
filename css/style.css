@@ -5399,7 +5399,7 @@ html .page .group-sm-justify .button {
 }
 
 .rd-parallax-layer-holder {
-  height: 100vh !important;
+  /* height: 100vh !important; */
 }
 
 .rd-navbar-fullwidth-linked .rd-navbar-absolute + .section-jumbotron .section-jumbotron__inner,
@@ -10898,6 +10898,7 @@ html:not(.lt-ie10) .not-animated {
   font-size: 16px;
   line-height: 26px;
   text-align: left;
+  padding-top: 50px;
 }
 
 .rd-navbar-fixed .rd-navbar-nav > li > a {
@@ -11486,7 +11487,7 @@ html.boxed .rd-navbar--is-clone {
 
 .rd-navbar-fullwidth-linked .rd-navbar-absolute + *,
 .rd-navbar-static-linked .rd-navbar-absolute + * {
-  padding-top: 300px;
+  /* padding-top: 300px; */
 }
 
 /*
@@ -27266,7 +27267,54 @@ body > div.page > section.section.section-jumbotron.rd-parallax.bg-gray-dark > d
   bottom: 0;
 }
 
-@media (max-width: 992px){
+
+
+section.section.section-custom-1.bg-image.bg-image-1 .range > .cell-lg-5{
+  background: #ffffffa3;
+  padding: 20px;
+  color: #000;
+  margin: auto;
+}
+
+figure.image-wrap-1 img{
+  height: auto;
+}
+
+.solutions-quote-minimal{
+  background: #ffffffab;
+  color: #444;
+  padding: 10px; 
+}
+
+.heading-2-mod-1.text-block span{
+  color: #4f91b5;
+}
+
+.owl-carousel1 img{
+  width: 100vw;
+  max-height: 900px;
+}
+
+.owl-carousel1 .item{
+  position: relative;
+}
+
+.owl-carousel1 .item h1{
+  position: absolute;
+  top: 25%;
+  width: 100vw;
+  text-align: center;
+  background: #ffffff8f;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.owl-carousel1 .item h1 p{
+  font-size: 40px;
+  letter-spacing: initial;
+}
+
+@media (max-width: 1024px){
   header .brand__name{
     height: 50px;
     background-position: left; 
@@ -27295,25 +27343,15 @@ body > div.page > section.section.section-jumbotron.rd-parallax.bg-gray-dark > d
     text-shadow: 0 0 20px white;
     display: block;
   }
-}
-
-section.section.section-custom-1.bg-image.bg-image-1 .range > .cell-lg-5{
-  background: #ffffffa3;
-  padding: 20px;
-  color: #000;
-  margin: auto;
-}
-
-figure.image-wrap-1 img{
-  height: auto;
-}
-
-.solutions-quote-minimal{
-  background: #ffffffab;
-  color: #444;
-  padding: 10px; 
-}
-
-.heading-2-mod-1.text-block span{
-  color: #4f91b5;
+  .owl-carousel1 .item h1{
+    top: 0;
+    font-weight: normal;
+    font-size: 30px;
+    height: -webkit-fill-available;
+    text-shadow: 0 0 0px black;
+    padding: 60px 0;
+  }
+  .owl-carousel1 .item h1 p{
+    font-size: 18px;
+  }
 }

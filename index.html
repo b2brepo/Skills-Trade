@@ -10,6 +10,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,500,500italic,700">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 		<!--[if lt IE 10]>
@@ -73,20 +74,29 @@
         </div>
       </header>
       <!-- Presentation-->
-      <section class="section section-jumbotron rd-parallax bg-gray-dark">
-        <div class="rd-parallax-layer" data-type="media" data-url="images/home-4-450x274.png" data-speed=".66"></div>
-        <!-- <div class="rd-parallax-layer" data-type="html" data-speed=".2"></div> -->
-        <div class="rd-parallax-layer" data-type="html" data-speed=".2">
-          <div class="section-jumbotron__inner">
-            <div class="shell">
-              <h1 class="only_mob">Job training empowers people to realize their dreams and improve their lives</h1>
-              <div class="group-sm text-center">
-                <a class="button button-gray-dark text-uppercase" href="#start-a-journey" data-custom-scroll-to="#start-a-journey">Start your journey</a>
-              </div>
-            </div>
-          </div>
+      <div class="owl-carousel1">
+        <div class="item">
+          <img src="images/carousel1.png">
+          <h1>
+            Real Time Training Institutes
+            <p>Mostly Practical Sessions for every course in our institute.</p>
+          </h1>
         </div>
-      </section>
+        <div class="item">
+          <img src="images/carousel2.jpg">
+          <h1>
+              Job Oriented Training
+              <p>We are the Best Training institute in Chennai.</p>
+            </h1>
+        </div>
+        <div class="item">
+          <img src="images/carousel3.jpg">
+          <h1>
+              Corporate Style Training
+              <p>Well Experienced Faculties for that specific training.</p>
+            </h1>
+        </div>
+      </div>
 
       <!-- Check out other themes based on HowardHawk-->
       <section class="section section-lg bg-white text-center" id="start-a-journey">
@@ -112,14 +122,14 @@
       <!-- Counters-->
       <section class="section section-xl bg-primary bg-primary-gradient-1-animated text-center">
         <div class="shell">
-          <h4 class="wow fadeIn">Check out top features</h4>
+          <h4 class="wow fadeIn">Why Choose Us?</h4>
           <div class="range range-50 offset-custom-2">
             <div class="cell-sm-4 wow fadeInLeftSmall">
               <div class="blurb-unit">
                 <div class="blurb-unit__left"><span class="blurb-unit__icon fl-chapps-configuration13"></span></div>
                 <div class="blurb-unit__body">
-                  <h5>Advanced UI Kit Training</h5>
-                  <p>Make the pages of your website look more attractive with our new Advanced UI Kit Training.</p>
+                  <h5>Corporate Style Training</h5>
+                  <p>Get Exposure to Corporate way of working and solve the needs in their style.</p>
                 </div>
               </div>
             </div>
@@ -143,6 +153,37 @@
             </div>
           </div>
         </div>
+        <div class="shell">
+          <div class="range range-50 offset-custom-2">
+            <div class="cell-sm-4 wow fadeInLeftSmall">
+              <div class="blurb-unit">
+                <div class="blurb-unit__left"><span class="blurb-unit__icon fl-chapps-configuration13"></span></div>
+                <div class="blurb-unit__body">
+                  <h5>Flexible Training</h5>
+                  <p>Students can choose their Learning Time flexibly. Trainers are student friendly, they can schedule training based on student's avaibility.</p>
+                </div>
+              </div>
+            </div>
+            <div class="cell-sm-4 wow fadeInLeftSmall" data-wow-delay=".1s">
+              <div class="blurb-unit">
+                <div class="blurb-unit__left"><span class="blurb-unit__icon fl-chapps-hand135"></span></div>
+                <div class="blurb-unit__body">
+                  <h5>Job Assistance</h5>
+                  <p>We are giving 100% job assistance with more corporate companies as clients and we schedule interviews for every student.</p>
+                </div>
+              </div>
+            </div>
+            <div class="cell-sm-4 wow fadeInLeftSmall" data-wow-delay=".2s">
+              <div class="blurb-unit">
+                <div class="blurb-unit__left"><span class="blurb-unit__icon fl-chapps-download122"></span></div>
+                <div class="blurb-unit__body">
+                  <h5>Lab Support</h5>
+                  <p>If you need software assistance we are here to back you up. Bring your laptop or desktop and load the required software and learn.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Home Layouts & Demos-->
@@ -152,7 +193,7 @@
           <div class="image-group-1">
             <figure class="wow slideInUpSmall"><img src="images/training.png" alt="" width="750" height="402"/>
             </figure>
-          </div><a class="button button-gray-dark text-uppercase wow fadeInUp" href="contacts.html" data-wow-delay=".25s">Join now!</a>
+          </div><a class="button button-gray-dark text-uppercase wow fadeInUp modalLink" data-wow-delay=".25s">Join now!</a>
         </div>
       </section>
 
@@ -190,7 +231,7 @@
           <div class="section-xxl">
             <div class="shell">
               <h4>Become the Emperor of Information Technologies!</h4>
-              <p class="big">Get ready to exprience the best Training in the Industry.</p><a class="button button-primary" href="about.html">Know more</a>
+              <p class="big">Get ready to exprience the best Training in the Industry.</p><a class="button button-primary modalLink">Know more</a>
             </div>
           </div>
         </div>
@@ -201,10 +242,45 @@
         <div class="shell">
           <figure class="wow fadeInDown"><img src="images/icon-phone-36x37.png" alt="" width="36" height="37"/>
           </figure>
-          <h4 class="wow fadeIn offset-30">24/7 Support</h4>
-          <p class="big wow fadeInUp">We are always there to support you at any cost and provide assistance in buildiing up your career</p><a class="button button-primary wow fadeIn" href="solutions.html" data-wow-delay=".25s">Know more</a>
+          <h4 class="wow fadeIn offset-30 modalLink">Contact Us</h4>
+          <p class="big wow fadeInUp">We are always there to support you at any cost and provide assistance in building up your career</p><a class="button button-primary wow fadeIn modalLink" data-wow-delay=".25s">Know more</a>
         </div>
       </section>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Enquiry</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Name*" required>
+                </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="mobile" placeholder="Mobile Number*" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email*" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="course" placeholder="Course you are Interested*" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Type your Message here*"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
 
       <!-- Page Footer -->
       <footer class="section footer-minimal bg-gray-lighter">
@@ -270,5 +346,36 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#myModal').modal();
+        setInterval(function(){
+          $('#myModal').modal();
+        },300000)
+        $('.modalLink').click(function(){
+          $('#myModal').modal();
+        })
+        $('.owl-carousel1').owlCarousel({
+            loop: true,
+            autoplay: true,
+            responsiveClass: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1,
+                    nav:false
+                },
+                1000:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                }
+            }
+        })
+      });
+    </script>
   </body>
 </html>
