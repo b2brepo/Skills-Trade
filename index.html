@@ -126,7 +126,7 @@
           <div class="range range-50 offset-custom-2">
             <div class="cell-sm-4 wow fadeInLeftSmall">
               <div class="blurb-unit">
-                <div class="blurb-unit__left"><span class="blurb-unit__icon fl-chapps-configuration13"></span></div>
+                <div class="blurb-unit__left"><span class="blurb-unit__icon fa-black-tie"></span></div>
                 <div class="blurb-unit__body">
                   <h5>Corporate Style Training</h5>
                   <p>Get Exposure to Corporate way of working and solve the needs in their style.</p>
@@ -135,7 +135,7 @@
             </div>
             <div class="cell-sm-4 wow fadeInLeftSmall" data-wow-delay=".1s">
               <div class="blurb-unit">
-                <div class="blurb-unit__left"><span class="blurb-unit__icon fl-chapps-hand135"></span></div>
+                <div class="blurb-unit__left"><span class="blurb-unit__icon fa-sign-language"></span></div>
                 <div class="blurb-unit__body">
                   <h5>Exclusive Hands-on Training</h5>
                   <p>Innovative training to experience the current understanding of Information Technologies.</p>
@@ -275,8 +275,8 @@
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning">Submit</button>
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -349,7 +349,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
       $(document).ready(function(){
-        $('#myModal').modal();
+        setTimeout(function(){
+          $('#myModal').modal();
+        },3000)        
         setInterval(function(){
           $('#myModal').modal();
         },300000)

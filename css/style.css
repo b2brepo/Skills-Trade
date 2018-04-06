@@ -27314,6 +27314,22 @@ figure.image-wrap-1 img{
   letter-spacing: initial;
 }
 
+.modal-content{
+  background: linear-gradient(to right, #396aa4 0%, #0bafbe 100%);
+}
+
+h4.modal-title{
+  color: #fff;
+}
+
+.close{
+  color: #fdfdfd;
+  opacity: 1;
+}
+
+.modal-dialog {
+  margin: 100px 10px;
+}
 @media (max-width: 1024px){
   header .brand__name{
     height: 50px;
@@ -27353,5 +27369,11 @@ figure.image-wrap-1 img{
   }
   .owl-carousel1 .item h1 p{
     font-size: 18px;
+  }
+}
+
+@media (min-width: 768px){
+  .modal-dialog {
+    margin: 100px auto;
   }
 }
