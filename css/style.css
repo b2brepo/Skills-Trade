@@ -6476,7 +6476,7 @@ h5 + .heading-2,
 }
 
 .shell-fluid .cell_image {
-  display: none;
+  /* display: none; */
 }
 
 @media (min-width: 768px) {
@@ -6491,7 +6491,7 @@ h5 + .heading-2,
     padding: 100px 25px;
   }
   .shell-fluid .cell__inner > * {
-    max-width: 480px;
+    /* max-width: 480px; */
   }
   .shell-fluid .cell__inner h4 + h5,
   .shell-fluid .cell__inner .heading-4 + h5,
@@ -6526,7 +6526,6 @@ h5 + .heading-2,
     width: auto;
     height: auto;
     min-width: 100%;
-    max-width: 145%;
   }
 }
 
@@ -6540,7 +6539,7 @@ h5 + .heading-2,
 @media (min-width: 1800px) {
   .shell-fluid .cell__inner {
     max-width: 820px;
-    padding: 200px 130px;
+    padding: 100px 0px;
   }
   .shell-fluid .cell__inner h4 + h5,
   .shell-fluid .cell__inner .heading-4 + h5,
@@ -27379,5 +27378,10 @@ address{
 @media (min-width: 768px){
   .modal-dialog {
     margin: 100px auto;
+  }
+}
+@media (min-width: 992px){
+  .shell-fluid .dotnet{
+    padding-left: 35px;
   }
 }
